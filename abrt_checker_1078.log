@@ -1,0 +1,9 @@
+Uncaught java.lang.IndexOutOfBoundsException exception in thread "main" in a method java.util.ArrayList.rangeCheck() with signature (I)V
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:635) [jar:file:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.5.1.fc20.x86_64/jre/lib/rt.jar!/java/util/ArrayList.class]
+	at java.util.ArrayList.get(ArrayList.java:411) [jar:file:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.5.1.fc20.x86_64/jre/lib/rt.jar!/java/util/ArrayList.class]
+	at mergeVM.get_neighborType(mergeVM.java:130) [file:/home/jy/codes/wholeGraph/mergeVM.class]
+	at DrawPanel.<init>(wholeGraph.java:347) [file:/home/jy/codes/wholeGraph/DrawPanel.class]
+	at wholeGraph.initUI(wholeGraph.java:694) [file:/home/jy/codes/wholeGraph/wholeGraph.class]
+	at wholeGraph.<init>(wholeGraph.java:690) [file:/home/jy/codes/wholeGraph/wholeGraph.class]
+	at wholeGraph.main(wholeGraph.java:733) [file:/home/jy/codes/wholeGraph/wholeGraph.class]
